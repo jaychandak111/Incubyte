@@ -63,9 +63,9 @@ public:
 
 int main()
 {
-    StringCalculator sc;                                         			//object creation 
-    int result = sc.add("//;\n1;2");                                  		//calling add method of StringCalculator class
-    cout << "The Output of Test Case 1: " << endl;
-    cout << "The Result is: "<<result << endl;
+    StringCalculator sc;                                         			//object creation
+    int result = sc.add("//;\n1;2");                                        // calling add method of StringCalculator class
+    cout << "The Output of Test Case 9: " << endl;
+    cout << "The Result \"//;\n1;2\": " << result << endl;
     return 0;
 }
